@@ -1,0 +1,41 @@
+ext {
+    depsVersion = [
+            support      : "28.0.0",
+            retrofit     : "2.1.0",
+            okhttp       : "3.6.0",
+            rxjava       : "1.2.6",
+            rxandroid    : "1.2.1",
+            rxlifecycle  : "0.6.1",
+            fragmentation: "0.9.0",
+            preferences  : "0.1.7",
+            timber       : "4.5.1",
+    ]
+
+    deps = [
+            // ------------- Android -------------
+            support_v4              : "com.android.support:support-v4:${depsVersion.support}",
+            support_v7              : "com.android.support:appcompat-v7:${depsVersion.support}",
+            recyclerview_v7         : "com.android.support:recyclerview-v7:${depsVersion.support}",
+            cardview_v7             : "com.android.support:cardview-v7:${depsVersion.support}",
+            design                  : "com.android.support:design:${depsVersion.support}",
+            percent                 : "com.android.support:percent:${depsVersion.support}",
+            constraint_layout       : "com.android.support.constraint:constraint-layout:1.0.2",
+
+            // ------------- Three Parts -------------
+            retrofit                : "com.squareup.retrofit2:retrofit:${depsVersion.retrofit}",
+            retrofit2_converter_gson: "com.squareup.retrofit2:converter-gson:${depsVersion.retrofit}",
+            retrofit2_adapter_rxjava: "com.squareup.retrofit2:adapter-rxjava:${depsVersion.retrofit}",
+            okhttplogging           : "com.squareup.okhttp3:logging-interceptor:${depsVersion.okhttp}",
+            rxjava                  : "io.reactivex:rxjava:${depsVersion.rxjava}",
+            rxandroid               : "io.reactivex:rxandroid:${depsVersion.rxandroid}",
+            rxlifecycle             : "com.trello:rxlifecycle:${depsVersion.rxlifecycle}",
+            rxlifecycle_components  : "com.trello:rxlifecycle-components:${depsVersion.rxlifecycle}",
+            secure_preferences_lib  : "com.scottyab:secure-preferences-lib:${depsVersion.preferences}",
+            timber                  : "com.jakewharton.timber:timber:${depsVersion.timber}",
+            picasso                 : "com.squareup.picasso:picasso:2.5.2",
+            ad_library              : "cn.yipianfengye.android:ad-library:1.0",//广告弹窗
+            // ------------- Test dependencies -------------
+            junit                   : "junit:junit:4.12",
+
+    ]
+}

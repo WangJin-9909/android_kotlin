@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Json解析" />
+
+    <Button
+        android:id="@+id/btn_2_ui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ui组件" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="序列化" />
+
+    <Button
+        android:id="@+id/btn_4_build"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="构建相关" />
+   <Button
+        android:id="@+id/btn_5_net_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络" />
+
+
+</LinearLayout>

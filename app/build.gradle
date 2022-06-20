@@ -14,6 +14,26 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+        }
+        sourceSets {
+            main {
+                jniLibs.srcDirs = ['src/main/jni/ffmpeg']
+            }
+        }
+
+    }
+    externalNativeBuild {
+        cmake {
+            path 'CMakeLists.txt'
+
+        }
     }
     buildTypes {
         debug {
@@ -43,6 +63,7 @@ dependencies {
 
     //sp库
     implementation 'com.scottyab:secure-preferences-lib:0.1.7'
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
 
 
 

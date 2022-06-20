@@ -5,11 +5,12 @@ import com.example.kotlin.example.pages.BuildActivity
 import com.example.kotlin.example.pages.JsonActivity
 import com.example.kotlin.example.pages.StorageActivity
 import com.example.kotlin.example.pages.UiActivity
-import com.example.kotlin.example.utils.gm_net_library.bean.DownLoadBean
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.btn_1
 
 class MainActivity : BaseActivity() {
+
+
     override fun getLayoutResID(): Int {
         return R.layout.activity_main
     }

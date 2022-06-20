@@ -23,7 +23,11 @@ abstract  class BaseActivity : AppCompatActivity() {
         initUi()
 
 
+
     }
+
+
+
     fun showToast(msg: String): Unit {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
     }
@@ -48,4 +52,5 @@ abstract  class BaseActivity : AppCompatActivity() {
     abstract fun getLayoutResID(): Int
 
     open fun initUi(){}
+
 }

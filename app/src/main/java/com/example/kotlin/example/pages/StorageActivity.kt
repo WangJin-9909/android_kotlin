@@ -2,8 +2,8 @@ package com.example.kotlin.example.pages
 
 import com.example.kotlin.BaseActivity
 import com.example.kotlin.R
-import com.example.kotlin.example.utils.PreferenceUtil
-import com.example.kotlin.example.utils.PreferenceUtil.getSecurePreference
+import com.example.kotlin.utils.PreferenceUtil
+import com.example.kotlin.utils.PreferenceUtil.getSecurePreference
 import kotlinx.android.synthetic.main.activity_storage.*
 
 class StorageActivity : BaseActivity() {
